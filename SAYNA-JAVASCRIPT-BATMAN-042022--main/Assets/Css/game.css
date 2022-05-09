@@ -1,0 +1,15 @@
+header {
+    background-image: url("../Illustrations/Game/Batgame1.png");
+    background-size: cover;
+    height: 127vh;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer .footer-part2 {
+    background-color: black;
+    height: 90vh;
+}

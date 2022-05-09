@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+/*font-family: 'Space Grotesk', sans-serif;
+
+*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    overflow-x: hidden;
+}
+
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-2-color: #F8F184;
+    --dark-blue-color: #19587D;
+    --dark-red-color: #B11313;
+    --black-color: #0D0E09;
+    --grey-color: #C4C4C4;
+    --white-color: #FFFFFF;
+}
+
+p,
+label {
+    font-family: 'Space Grotesk';
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 0 16px;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+}
+
+li a:hover {
+    color: var(--white-color);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 13%;
+    border: #BCBBBD;
+}
+
+h2,
+h1 {
+    font-family: 'Rajdhani';
+}
